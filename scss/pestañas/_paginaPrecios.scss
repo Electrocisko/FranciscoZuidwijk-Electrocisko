@@ -4,6 +4,7 @@
    
     border-radius: 0.5em;
     box-shadow: 10px 5px 5px black;
+        
 }
 
 .imagen-texto-contenedor {
@@ -28,11 +29,7 @@ div div button {
     background-color: black;
 }
 
-.contenedor-imagen-precios {
-    position: relative;
-    display: inline-block;
-    text-align: center;
-}
+
 
 .contenedor-imagen-precios:hover .texto-sobre-imagen {
     display: block;
