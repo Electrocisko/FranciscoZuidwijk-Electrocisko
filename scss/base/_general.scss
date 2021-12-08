@@ -1,0 +1,50 @@
+
+/* -- Google fonts--*/
+@font-face {
+    font-family: "electrocisko";
+    src: url(../fonts/SF\ Electrotome\ Oblique.ttf) format("truetype");
+}
+
+body{
+    background-color: darkkhaki;
+   }
+  
+   .font_electrocisko {
+      font-family: "electrocisko";
+      font-weight: bold;
+      font-size: 3rem;
+      letter-spacing: 0.2em;
+      color: $colorLogoMarron;
+      text-align: center;
+      overflow: hidden;
+      margin-bottom: 0;
+      padding-bottom: 0;
+  }
+  
+  .tituloLogo {
+      padding-top: 80px;
+  }
+  
+  section h2 {
+      text-align: center;
+      padding-bottom: 0;
+  }
+  
+  .fondoContainer {
+      background-color: darkkhaki;
+      padding-bottom: 2%;
+  }
+
+  h1 {
+      text-align: center;
+      font-size: medium;
+      margin-top: 0;
+      padding-top: 0;
+      color: black;
+  }
+
+  p {
+      margin: 0.25px;
+  }
+
+   

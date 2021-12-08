@@ -1,0 +1,15 @@
+    @import '../base/variables';
+    /* Para que el header no me tape las anclas googlee y aplique psuedo selector https://www.solucionex.com/blog/anclas-con-barra-de-navegacion-fixed */
+
+    .ancla::before {
+        display: block;
+        content: " ";
+        margin-top: -4em;
+        height: 4em;
+        visibility: hidden;
+    }
+
+    .logo {
+        font-family: 'electrocisko';
+        color: orange !important;
+    }

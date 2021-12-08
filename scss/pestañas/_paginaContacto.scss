@@ -1,0 +1,24 @@
+@import '../base/variables';
+
+label {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.googleMaps {
+    border: solid $colorLogoMarron 1px !important;
+    border-radius: 0.5em;
+}
+    

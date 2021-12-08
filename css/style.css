@@ -1,0 +1,225 @@
+.footerContainer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: black;
+  font-size: small;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer div {
+  color: whitesmoke;
+}
+footer div a {
+  margin-inline: 2em;
+  text-decoration: none;
+  font-weight: bold;
+  color: whitesmoke;
+}
+footer div a:hover {
+  color: #ff9253;
+}
+
+label {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+.googleMaps {
+  border: solid #722f37 1px !important;
+  border-radius: 0.5em;
+}
+
+/* -- Google fonts--*/
+@font-face {
+  font-family: "electrocisko";
+  src: url(../fonts/SF\ Electrotome\ Oblique.ttf) format("truetype");
+}
+body {
+  background-color: darkkhaki;
+}
+
+.font_electrocisko {
+  font-family: "electrocisko";
+  font-weight: bold;
+  font-size: 3rem;
+  letter-spacing: 0.2em;
+  color: #722f37;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.tituloLogo {
+  padding-top: 80px;
+}
+
+section h2 {
+  text-align: center;
+  padding-bottom: 0;
+}
+
+.fondoContainer {
+  background-color: darkkhaki;
+  padding-bottom: 2%;
+}
+
+h1 {
+  text-align: center;
+  font-size: medium;
+  margin-top: 0;
+  padding-top: 0;
+  color: black;
+}
+
+p {
+  margin: 0.25px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* Para que el header no me tape las anclas googlee y aplique psuedo selector https://www.solucionex.com/blog/anclas-con-barra-de-navegacion-fixed */
+.ancla::before {
+  display: block;
+  content: " ";
+  margin-top: -4em;
+  height: 4em;
+  visibility: hidden;
+}
+
+.logo {
+  font-family: "electrocisko";
+  color: orange !important;
+}
+
+.imagenesPrecios {
+  border-radius: 0.5em;
+  box-shadow: 10px 5px 5px black;
+}
+
+.imagen-texto-contenedor {
+  position: relative;
+}
+
+div div button {
+  margin-top: 10px;
+}
+
+.texto-sobre-imagen {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: x-large;
+  color: #ff9253;
+  border: solid #722f37;
+  border-radius: 0.25em;
+  padding: 0.5em;
+  background-color: black;
+}
+
+.contenedor-imagen-precios {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.contenedor-imagen-precios:hover .texto-sobre-imagen {
+  display: block;
+}
+
+.centrar-carusel {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-inner {
+  border: solid var(--colorLogoMarron) 1px;
+  border-radius: 0.25em;
+}
+
+.carusel {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 992px) {
+  /*---------Grid Precios- Responsive----------------*/
+  .imagenesPrecios {
+    display: none;
+  }
+
+  /*-----------Fin Grid Precio responsive------------*/
+  /*-- Contacto responsive----*/
+  .form {
+    display: none;
+  }
+
+  .googleMaps {
+    display: none;
+  }
+
+  /*--fin contacto--*/
+  /*-- Header--*/
+  .tituloLogo {
+    padding-top: 100px;
+  }
+
+  /* Este es para que el navbar no me tape el texto*/
+  .ancla::before {
+    display: block;
+    content: " ";
+    margin-top: -20em;
+    height: 20em;
+    visibility: hidden;
+  }
+}
+.contenedor-principal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.contenedor-principal .section-contenedor {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 0;
+  background: #ebe5e3;
+  background: linear-gradient(90deg, #ebe5e3 22%, rgba(185, 185, 170, 0.5662640056) 87%);
+  border-radius: 0.5em;
+}
+.contenedor-principal .section-contenedor .imagen-contendor {
+  width: 30em;
+  transition: 2s;
+}
+.contenedor-principal .section-contenedor .imagen-contendor img {
+  width: 100%;
+  border-radius: 0.5em;
+}
+.contenedor-principal .section-contenedor .parrafo-imagen-contenedor {
+  text-align: center;
+  padding-top: 1em;
+}
+
+/*# sourceMappingURL=style.css.map */

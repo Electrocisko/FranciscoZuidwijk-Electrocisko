@@ -1,0 +1,35 @@
+    
+@media  (max-width: 992px) { 
+
+    /*---------Grid Precios- Responsive----------------*/
+   
+    .imagenesPrecios {
+        display: none;
+    } 
+   
+   /*-----------Fin Grid Precio responsive------------*/
+    /*-- Contacto responsive----*/
+
+    .form {
+    display: none;
+    }
+
+    .googleMaps {
+    display: none;
+    }
+    /*--fin contacto--*/
+
+    /*-- Header--*/
+    .tituloLogo {
+        padding-top: 100px;
+    }
+
+    /* Este es para que el navbar no me tape el texto*/
+    .ancla::before {
+        display: block;
+        content: " ";
+        margin-top: -20em;
+        height: 20em;
+        visibility: hidden;
+    }
+}
