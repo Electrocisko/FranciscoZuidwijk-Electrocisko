@@ -125,30 +125,6 @@ div div button {
   margin-top: 10px;
 }
 
-.texto-sobre-imagen {
-  display: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: x-large;
-  color: #ff9253;
-  border: solid #722f37;
-  border-radius: 0.25em;
-  padding: 0.5em;
-  background-color: black;
-}
-
-.contenedor-imagen-precios {
-  position: relative;
-  display: inline-block;
-  text-align: center;
-}
-
-.contenedor-imagen-precios:hover .texto-sobre-imagen {
-  display: block;
-}
-
 .centrar-carusel {
   margin-left: auto;
   margin-right: auto;
