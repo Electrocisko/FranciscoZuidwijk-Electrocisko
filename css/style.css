@@ -117,12 +117,13 @@ p {
   box-shadow: 10px 5px 5px black;
 }
 
-.imagen-texto-contenedor {
-  position: relative;
-}
-
 div div button {
   margin-top: 10px;
+}
+
+.contenedor-imagen-precios {
+  width: 100%;
+  height: auto;
 }
 
 .centrar-carusel {
