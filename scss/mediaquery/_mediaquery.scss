@@ -32,4 +32,9 @@
         height: 20em;
         visibility: hidden;
     }
+
+    /* Se juntan los vinculos sociales para que no rompan el footer */
+    footer div a {
+        margin-inline: 1em;
+    }
 }

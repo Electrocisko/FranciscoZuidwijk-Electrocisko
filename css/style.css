@@ -17,6 +17,9 @@ footer div a {
   font-weight: bold;
   color: whitesmoke;
 }
+footer div a p {
+  display: inline;
+}
 footer div a:hover {
   color: #ff9253;
 }
@@ -170,6 +173,11 @@ div div button {
     margin-top: -20em;
     height: 20em;
     visibility: hidden;
+  }
+
+  /* Se juntan los vinculos sociales para que no rompan el footer */
+  footer div a {
+    margin-inline: 1em;
   }
 }
 .contenedor-principal {

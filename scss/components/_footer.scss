@@ -17,6 +17,9 @@ footer div {
         text-decoration: none;
         font-weight: bold;
         color: whitesmoke;
+        p {
+            display:inline;
+        }
     }
     a:hover {
         color: $colorLogoNaranja;
