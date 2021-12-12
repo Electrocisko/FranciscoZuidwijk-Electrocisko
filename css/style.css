@@ -143,7 +143,7 @@ div div button {
 
 @media (max-width: 992px) {
   /*---------Grid Precios- Responsive----------------*/
-  .imagenesPrecios {
+  .imagenes-precios {
     display: none;
   }
 
@@ -153,13 +153,13 @@ div div button {
     display: none;
   }
 
-  .googleMaps {
+  .google-maps {
     display: none;
   }
 
   /*--fin contacto--*/
   /*-- Header--*/
-  .tituloLogo {
+  .titulo-logo {
     padding-top: 100px;
   }
 
