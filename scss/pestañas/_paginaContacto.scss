@@ -11,14 +11,17 @@ label {
     align-items: center;
 }
 
-.form {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    font-weight: bold;
-}
+// .form {
+//     margin-top: 0.5em;
+//     margin-bottom: 0.5em;
+//     font-weight: bold;
+// }
 
-.googleMaps {
-    border: solid $colorLogoMarron 1px !important;
-    border-radius: 0.5em;
+.google-maps {
+    border-radius: 1em;
 }
     
+.row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

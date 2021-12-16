@@ -35,15 +35,13 @@ label {
   align-items: center;
 }
 
-.form {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  font-weight: bold;
+.google-maps {
+  border-radius: 1em;
 }
 
-.googleMaps {
-  border: solid #722f37 1px !important;
-  border-radius: 0.5em;
+.row {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* -- Google fonts--*/
