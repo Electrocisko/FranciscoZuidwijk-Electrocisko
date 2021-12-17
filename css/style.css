@@ -35,6 +35,12 @@ label {
   align-items: center;
 }
 
+.form {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
 .google-maps {
   border-radius: 1em;
 }
@@ -42,6 +48,22 @@ label {
 .row {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+label {
+  padding-right: 10px;
+}
+
+input {
+  border-radius: 0.25em;
+  border: transparent;
+  padding: 3px;
+  margin-left: 10px;
+}
+
+textarea {
+  border-radius: 0.25em;
+  border: transparent;
 }
 
 /* -- Google fonts--*/
