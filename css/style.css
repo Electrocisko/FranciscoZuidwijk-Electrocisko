@@ -164,6 +164,10 @@ div div button {
   margin-bottom: 5px;
 }
 
+.imagen-carousel {
+  aspect-ratio: attr(1385px)/attr(779px);
+}
+
 @media (max-width: 992px) {
   /*---------Grid Precios- Responsive----------------*/
   .imagenes-precios {
