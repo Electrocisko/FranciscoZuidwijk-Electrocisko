@@ -27,6 +27,7 @@ footer div a:hover {
 label {
   margin-top: 1em;
   margin-bottom: 1em;
+  padding-right: 10px;
 }
 
 .form-container {
@@ -48,10 +49,7 @@ label {
 .row {
   margin-top: 10px;
   margin-bottom: 10px;
-}
-
-label {
-  padding-right: 10px;
+  color: black;
 }
 
 input {
@@ -64,6 +62,10 @@ input {
 textarea {
   border-radius: 0.25em;
   border: transparent;
+}
+
+.link-contacto {
+  color: black;
 }
 
 /* -- Google fonts--*/
@@ -91,6 +93,10 @@ body {
   padding-top: 80px;
 }
 
+.parrafo-centrado {
+  text-align: center;
+}
+
 section h2 {
   text-align: center;
   padding-bottom: 0;
@@ -111,6 +117,10 @@ h1 {
 
 p {
   margin: 0.25px;
+}
+
+a:link, a:visited, a:active {
+  text-decoration: none;
 }
 
 * {

@@ -24,6 +24,10 @@ body{
   .titulo-logo {
       padding-top: 80px;
   }
+
+  .parrafo-centrado {
+      text-align: center;
+  }
   
   section h2 {
       text-align: center;
@@ -47,5 +51,8 @@ body{
       margin: 0.25px;
   }
 
+  a:link, a:visited, a:active {
+    text-decoration:none;
+}
   
    
